@@ -1,0 +1,49 @@
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\bin\Debug\net6.0-windows\Centre d'appel.exe
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\bin\Debug\net6.0-windows\Centre d'appel.deps.json
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\bin\Debug\net6.0-windows\Centre d'appel.runtimeconfig.json
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\bin\Debug\net6.0-windows\Centre d'appel.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\bin\Debug\net6.0-windows\Centre d'appel.pdb
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.vbproj.AssemblyReference.cache
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre_d_appel.Form1.resources
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.vbproj.GenerateResource.cache
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.AssemblyInfoInputs.cache
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.AssemblyInfo.vb
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.vbproj.CoreCompileInputs.cache
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.vbproj.CopyComplete
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\refint\Centre d'appel.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.pdb
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.genruntimeconfig.cache
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Centre d'appel\obj\Debug\net6.0-windows\ref\Centre d'appel.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\Centre d'appel.exe
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\Centre d'appel.deps.json
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\Centre d'appel.runtimeconfig.json
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\Centre d'appel.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\Centre d'appel.pdb
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\Guna.UI2.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.vbproj.AssemblyReference.cache
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre_d_appel.Form1.resources
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.vbproj.GenerateResource.cache
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.AssemblyInfoInputs.cache
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.AssemblyInfo.vb
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.vbproj.CoreCompileInputs.cache
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.vbproj.CopyComplete
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\refint\Centre d'appel.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.pdb
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre d'appel.genruntimeconfig.cache
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\ref\Centre d'appel.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Gestion produit\Centre_d'appel _app\Centre d'appel\obj\Debug\net6.0-windows\Centre_d_appel.Resources.resources
