@@ -90,7 +90,7 @@ Partial Class Form1
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowHeadersWidth = 51
         Me.DataGridView1.RowTemplate.Height = 29
-        Me.DataGridView1.Size = New System.Drawing.Size(464, 261)
+        Me.DataGridView1.Size = New System.Drawing.Size(390, 261)
         Me.DataGridView1.TabIndex = 6
         '
         'Form1

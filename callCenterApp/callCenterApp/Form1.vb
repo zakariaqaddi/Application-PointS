@@ -1,7 +1,7 @@
 ﻿Imports System.Data
 Imports MySql.Data.MySqlClient
 Public Class Form1
-    Private conn As New MySqlConnection("server=localhost;user=root;database=callcenter;port=3306;")
+    Private conn As New MySqlConnection("server=localhost;user=root;database=callCenterApp;port=3306;")
     Private cmd As New MySqlCommand("select * from client")
     Private dr As MySqlDataReader
     Private t As New DataTable
