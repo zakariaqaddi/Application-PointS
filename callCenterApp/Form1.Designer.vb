@@ -25,19 +25,19 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.etat = New System.Windows.Forms.ComboBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.service3 = New System.Windows.Forms.ComboBox()
+        Me.service1 = New System.Windows.Forms.ComboBox()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.service2 = New System.Windows.Forms.ComboBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.ComboBox5 = New System.Windows.Forms.ComboBox()
+        Me.centre = New System.Windows.Forms.ComboBox()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -88,14 +88,15 @@ Partial Class Form1
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Etat"
         '
-        'ComboBox1
+        'etat
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(229, 234)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(5)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(284, 45)
-        Me.ComboBox1.TabIndex = 4
+        Me.etat.Font = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.etat.FormattingEnabled = True
+        Me.etat.Location = New System.Drawing.Point(229, 234)
+        Me.etat.Margin = New System.Windows.Forms.Padding(5)
+        Me.etat.Name = "etat"
+        Me.etat.Size = New System.Drawing.Size(284, 37)
+        Me.etat.TabIndex = 4
         '
         'TextBox1
         '
@@ -146,23 +147,25 @@ Partial Class Form1
         Me.Label6.TabIndex = 9
         Me.Label6.Text = "Prenom"
         '
-        'ComboBox2
+        'service3
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(241, 188)
-        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(5)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(284, 45)
-        Me.ComboBox2.TabIndex = 11
+        Me.service3.Font = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.service3.FormattingEnabled = True
+        Me.service3.Location = New System.Drawing.Point(241, 188)
+        Me.service3.Margin = New System.Windows.Forms.Padding(5)
+        Me.service3.Name = "service3"
+        Me.service3.Size = New System.Drawing.Size(359, 37)
+        Me.service3.TabIndex = 11
         '
-        'ComboBox3
+        'service1
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(241, 57)
-        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(5)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(284, 45)
-        Me.ComboBox3.TabIndex = 13
+        Me.service1.Font = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.service1.FormattingEnabled = True
+        Me.service1.Location = New System.Drawing.Point(241, 57)
+        Me.service1.Margin = New System.Windows.Forms.Padding(5)
+        Me.service1.Name = "service1"
+        Me.service1.Size = New System.Drawing.Size(359, 37)
+        Me.service1.TabIndex = 13
         '
         'Label8
         '
@@ -175,14 +178,15 @@ Partial Class Form1
         Me.Label8.TabIndex = 12
         Me.Label8.Text = "Service 3"
         '
-        'ComboBox4
+        'service2
         '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(241, 125)
-        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(5)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(284, 45)
-        Me.ComboBox4.TabIndex = 15
+        Me.service2.Font = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.service2.FormattingEnabled = True
+        Me.service2.Location = New System.Drawing.Point(241, 125)
+        Me.service2.Margin = New System.Windows.Forms.Padding(5)
+        Me.service2.Name = "service2"
+        Me.service2.Size = New System.Drawing.Size(359, 37)
+        Me.service2.TabIndex = 15
         '
         'Label9
         '
@@ -208,14 +212,15 @@ Partial Class Form1
         Me.Button1.Text = "Quitter"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'ComboBox5
+        'centre
         '
-        Me.ComboBox5.FormattingEnabled = True
-        Me.ComboBox5.Location = New System.Drawing.Point(195, 143)
-        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(5)
-        Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(284, 45)
-        Me.ComboBox5.TabIndex = 18
+        Me.centre.Font = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.centre.FormattingEnabled = True
+        Me.centre.Location = New System.Drawing.Point(195, 143)
+        Me.centre.Margin = New System.Windows.Forms.Padding(5)
+        Me.centre.Name = "centre"
+        Me.centre.Size = New System.Drawing.Size(362, 37)
+        Me.centre.TabIndex = 18
         '
         'Label11
         '
@@ -283,7 +288,7 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label7)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.ComboBox1)
+        Me.GroupBox1.Controls.Add(Me.etat)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
         Me.GroupBox1.Controls.Add(Me.Label5)
@@ -322,10 +327,10 @@ Partial Class Form1
         '
         Me.GroupBox2.BackColor = System.Drawing.Color.RoyalBlue
         Me.GroupBox2.Controls.Add(Me.Label3)
-        Me.GroupBox2.Controls.Add(Me.ComboBox3)
+        Me.GroupBox2.Controls.Add(Me.service1)
         Me.GroupBox2.Controls.Add(Me.Label9)
-        Me.GroupBox2.Controls.Add(Me.ComboBox4)
-        Me.GroupBox2.Controls.Add(Me.ComboBox2)
+        Me.GroupBox2.Controls.Add(Me.service2)
+        Me.GroupBox2.Controls.Add(Me.service3)
         Me.GroupBox2.Controls.Add(Me.Label8)
         Me.GroupBox2.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.GroupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
@@ -341,7 +346,7 @@ Partial Class Form1
         Me.GroupBox3.Controls.Add(Me.Button5)
         Me.GroupBox3.Controls.Add(Me.Label13)
         Me.GroupBox3.Controls.Add(Me.DateTimePicker2)
-        Me.GroupBox3.Controls.Add(Me.ComboBox5)
+        Me.GroupBox3.Controls.Add(Me.centre)
         Me.GroupBox3.Controls.Add(Me.Label11)
         Me.GroupBox3.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.GroupBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
@@ -411,19 +416,19 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents etat As ComboBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents ComboBox3 As ComboBox
+    Friend WithEvents service3 As ComboBox
+    Friend WithEvents service1 As ComboBox
     Friend WithEvents Label8 As Label
-    Friend WithEvents ComboBox4 As ComboBox
+    Friend WithEvents service2 As ComboBox
     Friend WithEvents Label9 As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents ComboBox5 As ComboBox
+    Friend WithEvents centre As ComboBox
     Friend WithEvents Label11 As Label
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
