@@ -44,12 +44,12 @@ Partial Class Form1
         Me.Label13 = New System.Windows.Forms.Label()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -297,6 +297,27 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Informations Client"
         '
+        'RichTextBox1
+        '
+        Me.RichTextBox1.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.RichTextBox1.Location = New System.Drawing.Point(834, 241)
+        Me.RichTextBox1.Name = "RichTextBox1"
+        Me.RichTextBox1.Size = New System.Drawing.Size(486, 106)
+        Me.RichTextBox1.TabIndex = 11
+        Me.RichTextBox1.Text = ""
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label7.ForeColor = System.Drawing.Color.OrangeRed
+        Me.Label7.Location = New System.Drawing.Point(651, 234)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(175, 37)
+        Me.Label7.TabIndex = 10
+        Me.Label7.Text = "Observation"
+        '
         'GroupBox2
         '
         Me.GroupBox2.BackColor = System.Drawing.Color.RoyalBlue
@@ -331,19 +352,6 @@ Partial Class Form1
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Prise de rendez-vous"
         '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.White
-        Me.Button4.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button4.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button4.Location = New System.Drawing.Point(572, 767)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(5)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(174, 58)
-        Me.Button4.TabIndex = 29
-        Me.Button4.Text = "Ajouter"
-        Me.Button4.UseVisualStyleBackColor = False
-        '
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.White
@@ -357,26 +365,18 @@ Partial Class Form1
         Me.Button5.Text = "Envoyez"
         Me.Button5.UseVisualStyleBackColor = False
         '
-        'Label7
+        'Button4
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label7.ForeColor = System.Drawing.Color.OrangeRed
-        Me.Label7.Location = New System.Drawing.Point(651, 234)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(175, 37)
-        Me.Label7.TabIndex = 10
-        Me.Label7.Text = "Observation"
-        '
-        'RichTextBox1
-        '
-        Me.RichTextBox1.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.RichTextBox1.Location = New System.Drawing.Point(834, 241)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(486, 106)
-        Me.RichTextBox1.TabIndex = 11
-        Me.RichTextBox1.Text = ""
+        Me.Button4.BackColor = System.Drawing.Color.White
+        Me.Button4.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button4.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.Button4.Location = New System.Drawing.Point(572, 767)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(5)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(174, 58)
+        Me.Button4.TabIndex = 29
+        Me.Button4.Text = "Ajouter"
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'Form1
         '

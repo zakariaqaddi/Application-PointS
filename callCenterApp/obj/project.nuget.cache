@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD:callCenterApp/callCenterApp/obj/project.nuget.cache
-  "dgSpecHash": "R+xyfyUsqT/zFuX0HhUIbM8E7yXrrB3r0d61uRMLVi9f6Uucqq5fqXCNcecPp4zHJaHTchBNgzs3q3EhcbPzlg==",
+  "dgSpecHash": "Qb7Lg1AHgqTlHDaHYyG4zqJ2Y3OA7Y6XzcUB1YkQhMcIQk2tFbG+c1nQeJZsj8gHMHEg2xY4o0E+FcbqfcSsTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp\\callCenterApp.vbproj",
-=======
-  "dgSpecHash": "oNGMw3SVNhSC4J97R640S5ROEX13uYoc6S9llb9ls8hpR9AyJkQKWaGSv+R6x53vJW1OHJfFtGuGvF3Lo9guCA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
->>>>>>> 42bdbfea56f067dc737c186e1e7bcdd18b8a7c96:callCenterApp/obj/project.nuget.cache
+  "projectFilePath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
@@ -30,5 +24,12 @@
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problème de lecture du fichier cache C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

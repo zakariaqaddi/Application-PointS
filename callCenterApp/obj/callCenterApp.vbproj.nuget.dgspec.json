@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD:callCenterApp/callCenterApp/obj/callCenterApp.vbproj.nuget.dgspec.json
-    "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp\\callCenterApp.vbproj": {}
+    "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp\\callCenterApp.vbproj": {
+    "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp\\callCenterApp.vbproj",
+        "projectUniqueName": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
         "projectName": "callCenterApp",
-        "projectPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp\\callCenterApp.vbproj",
+        "projectPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
         "packagesPath": "C:\\Users\\departement-techniqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp\\obj\\",
-=======
-    "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {}
-  },
-  "projects": {
-    "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
-        "projectName": "callCenterApp",
-        "projectPath": "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
-        "packagesPath": "C:\\Users\\zahi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\obj\\",
->>>>>>> 42bdbfea56f067dc737c186e1e7bcdd18b8a7c96:callCenterApp/obj/callCenterApp.vbproj.nuget.dgspec.json
+        "outputPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\departement-techniqu\\AppData\\Roaming\\NuGet\\NuGet.Config",

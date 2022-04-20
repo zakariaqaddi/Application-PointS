@@ -13,8 +13,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = callCenterApp
-<<<<<<< HEAD:callCenterApp/callCenterApp/obj/Debug/net6.0-windows/callCenterApp.GeneratedMSBuildEditorConfig.editorconfig
-build_property.ProjectDir = C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Projet\Application-PointS\callCenterApp\callCenterApp\
-=======
-build_property.ProjectDir = C:\Users\zahi\source\repos\Application-PointS\callCenterApp\
->>>>>>> 42bdbfea56f067dc737c186e1e7bcdd18b8a7c96:callCenterApp/obj/Debug/net6.0-windows/callCenterApp.GeneratedMSBuildEditorConfig.editorconfig
+build_property.ProjectDir = C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Projet\Application-PointS\callCenterApp\
