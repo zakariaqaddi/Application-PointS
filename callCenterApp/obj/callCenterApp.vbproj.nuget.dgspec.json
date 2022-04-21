@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {}
+    "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {
+    "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
+        "projectUniqueName": "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
         "projectName": "callCenterApp",
-        "projectPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
-        "packagesPath": "C:\\Users\\departement-techniqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\obj\\",
+        "projectPath": "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
+        "packagesPath": "C:\\Users\\zahi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\departement-techniqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -853,19 +853,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\departement-techniqu\\.nuget\\packages\\": {}
+    "C:\\Users\\zahi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
+      "projectUniqueName": "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
       "projectName": "callCenterApp",
-      "projectPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
-      "packagesPath": "C:\\Users\\departement-techniqu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\obj\\",
+      "projectPath": "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
+      "packagesPath": "C:\\Users\\zahi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\zahi\\source\\repos\\Application-PointS\\callCenterApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\departement-techniqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\zahi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -917,13 +917,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Projet\\Application-PointS\\callCenterApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

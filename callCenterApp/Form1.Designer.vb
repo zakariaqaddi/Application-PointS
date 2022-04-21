@@ -59,10 +59,9 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(484, 47)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label1.Location = New System.Drawing.Point(298, 29)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(118, 45)
+        Me.Label1.Size = New System.Drawing.Size(75, 28)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "N° TEL"
         '
@@ -70,10 +69,9 @@ Partial Class Form1
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(28, 50)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label3.Location = New System.Drawing.Point(17, 31)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(154, 45)
+        Me.Label3.Size = New System.Drawing.Size(99, 28)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Service 1"
         '
@@ -81,47 +79,42 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(121, 234)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label4.Location = New System.Drawing.Point(74, 146)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(78, 45)
+        Me.Label4.Size = New System.Drawing.Size(50, 28)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Etat"
         '
         'etat
         '
-        Me.etat.Font = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.etat.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.etat.FormattingEnabled = True
-        Me.etat.Location = New System.Drawing.Point(229, 234)
-        Me.etat.Margin = New System.Windows.Forms.Padding(5)
+        Me.etat.Location = New System.Drawing.Point(141, 146)
         Me.etat.Name = "etat"
-        Me.etat.Size = New System.Drawing.Size(284, 37)
+        Me.etat.Size = New System.Drawing.Size(176, 24)
         Me.etat.TabIndex = 4
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(229, 136)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(5)
+        Me.TextBox1.Location = New System.Drawing.Point(141, 85)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(284, 40)
+        Me.TextBox1.Size = New System.Drawing.Size(176, 27)
         Me.TextBox1.TabIndex = 5
         '
         'TextBox2
         '
-        Me.TextBox2.Location = New System.Drawing.Point(1009, 139)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(5)
+        Me.TextBox2.Location = New System.Drawing.Point(621, 87)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(311, 40)
+        Me.TextBox2.Size = New System.Drawing.Size(193, 27)
         Me.TextBox2.TabIndex = 6
         '
         'phoneNb
         '
         Me.phoneNb.AutoSize = True
         Me.phoneNb.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.phoneNb.Location = New System.Drawing.Point(654, 50)
-        Me.phoneNb.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.phoneNb.Location = New System.Drawing.Point(402, 31)
         Me.phoneNb.Name = "phoneNb"
-        Me.phoneNb.Size = New System.Drawing.Size(236, 45)
+        Me.phoneNb.Size = New System.Drawing.Size(156, 28)
         Me.phoneNb.TabIndex = 1
         Me.phoneNb.Text = "00 00 00 00 00"
         '
@@ -129,10 +122,9 @@ Partial Class Form1
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(121, 131)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label5.Location = New System.Drawing.Point(74, 82)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(94, 45)
+        Me.Label5.Size = New System.Drawing.Size(58, 28)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Nom"
         '
@@ -140,108 +132,98 @@ Partial Class Form1
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label6.Location = New System.Drawing.Point(838, 136)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label6.Location = New System.Drawing.Point(516, 85)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(138, 45)
+        Me.Label6.Size = New System.Drawing.Size(85, 28)
         Me.Label6.TabIndex = 9
         Me.Label6.Text = "Prenom"
         '
         'service3
         '
-        Me.service3.Font = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.service3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.service3.FormattingEnabled = True
-        Me.service3.Location = New System.Drawing.Point(241, 188)
-        Me.service3.Margin = New System.Windows.Forms.Padding(5)
+        Me.service3.Location = New System.Drawing.Point(148, 118)
         Me.service3.Name = "service3"
-        Me.service3.Size = New System.Drawing.Size(359, 37)
+        Me.service3.Size = New System.Drawing.Size(222, 24)
         Me.service3.TabIndex = 11
         '
         'service1
         '
-        Me.service1.Font = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.service1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.service1.FormattingEnabled = True
-        Me.service1.Location = New System.Drawing.Point(241, 57)
-        Me.service1.Margin = New System.Windows.Forms.Padding(5)
+        Me.service1.Location = New System.Drawing.Point(148, 36)
         Me.service1.Name = "service1"
-        Me.service1.Size = New System.Drawing.Size(359, 37)
+        Me.service1.Size = New System.Drawing.Size(222, 24)
         Me.service1.TabIndex = 13
         '
         'Label8
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label8.Location = New System.Drawing.Point(28, 181)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label8.Location = New System.Drawing.Point(17, 113)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(154, 45)
+        Me.Label8.Size = New System.Drawing.Size(99, 28)
         Me.Label8.TabIndex = 12
         Me.Label8.Text = "Service 3"
         '
         'service2
         '
-        Me.service2.Font = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.service2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.service2.FormattingEnabled = True
-        Me.service2.Location = New System.Drawing.Point(241, 125)
-        Me.service2.Margin = New System.Windows.Forms.Padding(5)
+        Me.service2.Location = New System.Drawing.Point(148, 78)
         Me.service2.Name = "service2"
-        Me.service2.Size = New System.Drawing.Size(359, 37)
+        Me.service2.Size = New System.Drawing.Size(222, 24)
         Me.service2.TabIndex = 15
         '
         'Label9
         '
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label9.Location = New System.Drawing.Point(28, 118)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label9.Location = New System.Drawing.Point(17, 74)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(154, 45)
+        Me.Label9.Size = New System.Drawing.Size(99, 28)
         Me.Label9.TabIndex = 14
         Me.Label9.Text = "Service 2"
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Button1.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button1.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button1.Location = New System.Drawing.Point(1284, 774)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(5)
+        Me.Button1.Location = New System.Drawing.Point(790, 484)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(174, 58)
+        Me.Button1.Size = New System.Drawing.Size(107, 36)
         Me.Button1.TabIndex = 16
         Me.Button1.Text = "Quitter"
         Me.Button1.UseVisualStyleBackColor = False
         '
         'centre
         '
-        Me.centre.Font = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.centre.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.centre.FormattingEnabled = True
-        Me.centre.Location = New System.Drawing.Point(195, 143)
-        Me.centre.Margin = New System.Windows.Forms.Padding(5)
+        Me.centre.Location = New System.Drawing.Point(120, 89)
         Me.centre.Name = "centre"
-        Me.centre.Size = New System.Drawing.Size(362, 37)
+        Me.centre.Size = New System.Drawing.Size(224, 24)
         Me.centre.TabIndex = 18
         '
         'Label11
         '
         Me.Label11.AutoSize = True
         Me.Label11.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label11.Location = New System.Drawing.Point(35, 140)
-        Me.Label11.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label11.Location = New System.Drawing.Point(22, 88)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(118, 45)
+        Me.Label11.Size = New System.Drawing.Size(74, 28)
         Me.Label11.TabIndex = 19
         Me.Label11.Text = "Centre"
         '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.Font = New System.Drawing.Font("Montserrat Black", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button2.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button2.Location = New System.Drawing.Point(102, 767)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(5)
+        Me.Button2.Location = New System.Drawing.Point(63, 479)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(153, 58)
+        Me.Button2.Size = New System.Drawing.Size(94, 36)
         Me.Button2.TabIndex = 21
         Me.Button2.Text = "<<"
         Me.Button2.UseVisualStyleBackColor = False
@@ -249,12 +231,11 @@ Partial Class Form1
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.White
-        Me.Button3.Font = New System.Drawing.Font("Montserrat Black", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button3.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button3.Location = New System.Drawing.Point(348, 767)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(5)
+        Me.Button3.Location = New System.Drawing.Point(214, 479)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(153, 58)
+        Me.Button3.Size = New System.Drawing.Size(94, 36)
         Me.Button3.TabIndex = 22
         Me.Button3.Text = ">>"
         Me.Button3.UseVisualStyleBackColor = False
@@ -263,23 +244,21 @@ Partial Class Form1
         '
         Me.Label13.AutoSize = True
         Me.Label13.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label13.Location = New System.Drawing.Point(35, 52)
-        Me.Label13.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label13.Location = New System.Drawing.Point(22, 32)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(90, 45)
+        Me.Label13.Size = New System.Drawing.Size(57, 28)
         Me.Label13.TabIndex = 25
         Me.Label13.Text = "Date"
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.CalendarFont = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.DateTimePicker2.CalendarFont = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.DateTimePicker2.CustomFormat = ""
-        Me.DateTimePicker2.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.DateTimePicker2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker2.Location = New System.Drawing.Point(195, 58)
-        Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(5)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(120, 36)
         Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(284, 40)
+        Me.DateTimePicker2.Size = New System.Drawing.Size(176, 27)
         Me.DateTimePicker2.TabIndex = 24
         Me.DateTimePicker2.Value = New Date(2022, 4, 22, 0, 0, 0, 0)
         '
@@ -296,10 +275,12 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.TextBox2)
         Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.GroupBox1.Location = New System.Drawing.Point(102, 31)
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.GroupBox1.Location = New System.Drawing.Point(63, 19)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1356, 366)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(834, 229)
         Me.GroupBox1.TabIndex = 26
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Informations Client"
@@ -307,9 +288,10 @@ Partial Class Form1
         'RichTextBox1
         '
         Me.RichTextBox1.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.RichTextBox1.Location = New System.Drawing.Point(834, 241)
+        Me.RichTextBox1.Location = New System.Drawing.Point(513, 151)
+        Me.RichTextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(486, 106)
+        Me.RichTextBox1.Size = New System.Drawing.Size(301, 68)
         Me.RichTextBox1.TabIndex = 11
         Me.RichTextBox1.Text = ""
         '
@@ -318,10 +300,9 @@ Partial Class Form1
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label7.ForeColor = System.Drawing.Color.OrangeRed
-        Me.Label7.Location = New System.Drawing.Point(651, 234)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label7.Location = New System.Drawing.Point(401, 146)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(175, 37)
+        Me.Label7.Size = New System.Drawing.Size(108, 23)
         Me.Label7.TabIndex = 10
         Me.Label7.Text = "Observation"
         '
@@ -334,11 +315,13 @@ Partial Class Form1
         Me.GroupBox2.Controls.Add(Me.service2)
         Me.GroupBox2.Controls.Add(Me.service3)
         Me.GroupBox2.Controls.Add(Me.Label8)
-        Me.GroupBox2.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.GroupBox2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.GroupBox2.Location = New System.Drawing.Point(102, 435)
+        Me.GroupBox2.Location = New System.Drawing.Point(63, 272)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(644, 284)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(396, 178)
         Me.GroupBox2.TabIndex = 27
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Services"
@@ -350,11 +333,13 @@ Partial Class Form1
         Me.GroupBox3.Controls.Add(Me.DateTimePicker2)
         Me.GroupBox3.Controls.Add(Me.centre)
         Me.GroupBox3.Controls.Add(Me.Label11)
-        Me.GroupBox3.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.GroupBox3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.GroupBox3.Location = New System.Drawing.Point(858, 435)
+        Me.GroupBox3.Location = New System.Drawing.Point(528, 272)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(600, 292)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox3.Size = New System.Drawing.Size(369, 182)
         Me.GroupBox3.TabIndex = 28
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Prise de rendez-vous"
@@ -362,12 +347,11 @@ Partial Class Form1
         'Button5
         '
         Me.Button5.BackColor = System.Drawing.Color.White
-        Me.Button5.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button5.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button5.Location = New System.Drawing.Point(426, 228)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(5)
+        Me.Button5.Location = New System.Drawing.Point(262, 142)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(166, 56)
+        Me.Button5.Size = New System.Drawing.Size(102, 35)
         Me.Button5.TabIndex = 30
         Me.Button5.Text = "Envoyez"
         Me.Button5.UseVisualStyleBackColor = False
@@ -375,22 +359,21 @@ Partial Class Form1
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.White
-        Me.Button4.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Button4.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button4.Location = New System.Drawing.Point(572, 767)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(5)
+        Me.Button4.Location = New System.Drawing.Point(352, 479)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(174, 58)
+        Me.Button4.Size = New System.Drawing.Size(107, 36)
         Me.Button4.TabIndex = 29
         Me.Button4.Text = "Ajouter"
         Me.Button4.UseVisualStyleBackColor = False
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 32.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.RoyalBlue
-        Me.ClientSize = New System.Drawing.Size(1574, 884)
+        Me.ClientSize = New System.Drawing.Size(969, 552)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
@@ -399,7 +382,6 @@ Partial Class Form1
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Margin = New System.Windows.Forms.Padding(5)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form1"

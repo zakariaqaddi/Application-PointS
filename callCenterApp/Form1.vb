@@ -152,4 +152,37 @@ Public Class Form1
             conn.Close()
         End Try
     End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
+        Dim sqlInsert As String = "insert into general_table(Numero, Prenom, Nom, Etat, Observation, Service1, Service2, Service3) values (@Numero, @Prenom, @Nom, @Etat, @Observation, @Service1, @Service2, @Service3)"
+        Dim cmd = New MySqlCommand(sqlInsert, conn)
+        cmd.Parameters.AddWithValue("@Numero", phoneNb.Text)
+        cmd.Parameters.AddWithValue("@Prenom", TextBox2.Text)
+        cmd.Parameters.AddWithValue("@Nom", TextBox1.Text)
+        cmd.Parameters.AddWithValue("@Etat", etat.Text)
+        cmd.Parameters.AddWithValue("@Observation", RichTextBox1.Text)
+        cmd.Parameters.AddWithValue("@Service1", service1.Text)
+        cmd.Parameters.AddWithValue("@Service2", service2.Text)
+        cmd.Parameters.AddWithValue("@Service3", service3.Text)
+
+        Try
+            conn.Open()
+            cmd.ExecuteNonQuery()
+        Catch ex As Exception
+            MsgBox("Error!")
+        Finally
+            conn.Close()
+        End Try
+        'Button3_Click(sender, e)
+        'phoneNb.Text = ""
+        TextBox2.Text = ""
+        TextBox1.Text = ""
+        etat.Text = ""
+        RichTextBox1.Text = ""
+        service1.Text = ""
+        service2.Text = ""
+        service3.Text = ""
+
+    End Sub
 End Class
