@@ -28,7 +28,7 @@ Partial Class Form1
         Me.etat = New System.Windows.Forms.ComboBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.phoneNb = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.service3 = New System.Windows.Forms.ComboBox()
@@ -59,7 +59,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(512, 47)
+        Me.Label1.Location = New System.Drawing.Point(484, 47)
         Me.Label1.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(118, 45)
@@ -114,16 +114,16 @@ Partial Class Form1
         Me.TextBox2.Size = New System.Drawing.Size(311, 40)
         Me.TextBox2.TabIndex = 6
         '
-        'Label2
+        'phoneNb
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(682, 50)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(56, 45)
-        Me.Label2.TabIndex = 1
-        Me.Label2.Text = "06"
+        Me.phoneNb.AutoSize = True
+        Me.phoneNb.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.phoneNb.Location = New System.Drawing.Point(654, 50)
+        Me.phoneNb.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.phoneNb.Name = "phoneNb"
+        Me.phoneNb.Size = New System.Drawing.Size(236, 45)
+        Me.phoneNb.TabIndex = 1
+        Me.phoneNb.Text = "00 00 00 00 00"
         '
         'Label5
         '
@@ -272,7 +272,9 @@ Partial Class Form1
         '
         'DateTimePicker2
         '
+        Me.DateTimePicker2.CalendarFont = New System.Drawing.Font("Montserrat", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.DateTimePicker2.CustomFormat = ""
+        Me.DateTimePicker2.Font = New System.Drawing.Font("Montserrat", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
         Me.DateTimePicker2.Location = New System.Drawing.Point(195, 58)
         Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(5)
@@ -287,7 +289,7 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.RichTextBox1)
         Me.GroupBox1.Controls.Add(Me.Label7)
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Controls.Add(Me.phoneNb)
         Me.GroupBox1.Controls.Add(Me.etat)
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.TextBox1)
@@ -419,7 +421,7 @@ Partial Class Form1
     Friend WithEvents etat As ComboBox
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Label2 As Label
+    Friend WithEvents phoneNb As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents service3 As ComboBox
