@@ -1,5 +1,6 @@
 ﻿Imports System.Data
 Imports MySql.Data.MySqlClient
+Imports System.Net.Mail
 Public Class Form1
     Dim id As Integer = 1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -84,16 +85,37 @@ Public Class Form1
     End Sub
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+
         Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
         Dim dr As MySqlDataReader
         Dim cmd As New MySqlCommand("select * from table1.centres where centre ='" & centre.Text & "'")
+        Dim Smtp_Server As New SmtpClient
+        Dim e_mail As New MailMessage
+
+        Smtp_Server.UseDefaultCredentials = False
+        Smtp_Server.Credentials = New Net.NetworkCredential("zakariaqaddi@outlook.com", "Ziko@12345")
+        Smtp_Server.Port = 587
+        Smtp_Server.EnableSsl = True
+        Smtp_Server.Host = "smtp.office365.com"
+
         Try
             conn.Open()
             cmd.Connection = conn
             dr = cmd.ExecuteReader()
             While dr.Read
-                Dim e_mail = dr.GetString("Email_du_centre")
-                'envoyer un mail de rendez-vous à e_mail
+                Try
+                    Dim mail = dr.GetString("Email_du_centre")
+                    e_mail.From = New MailAddress("zakariaqaddi@outlook.com")
+                    e_mail.To.Add("marketing@imperial-pneu.ma")
+                    e_mail.Subject = "Rendez-vous"
+                    e_mail.IsBodyHtml = False
+                    e_mail.Body = "fin a sat"
+                    Smtp_Server.Send(e_mail)
+                    MsgBox("mail sended,thank you : ")
+                    'envoyer un mail de rendez-vous à e_mail
+                Catch ex As Exception
+                    MsgBox(ex.Message)
+                End Try
             End While
             conn.Close()
         Catch ex As MySqlException
@@ -102,6 +124,7 @@ Public Class Form1
             conn.Close()
         End Try
     End Sub
+
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
