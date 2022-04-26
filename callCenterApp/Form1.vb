@@ -6,10 +6,51 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
         Dim dr As MySqlDataReader
-        Dim cmd1 As New MySqlCommand("select * from table1.services")
-        Dim cmd2 As New MySqlCommand("select * from table1.etats")
-        Dim cmd3 As New MySqlCommand("select * from table1.centres")
-        Dim cmd4 As New MySqlCommand("select * from table1.numero_de_client where id ='" & id & "'")
+        Dim cmd1 As New MySqlCommand("select * from services")
+        Dim cmd2 As New MySqlCommand("select * from etats")
+        Dim cmd3 As New MySqlCommand("select * from centres")
+        Dim cmd4 As New MySqlCommand("select * from numero_de_client where id ='" & id & "'")
+
+        Dim cmd5 As New MySqlCommand("select count(*) from numero_de_client")
+        Dim cmd6 As New MySqlCommand("select count(Numero) from general_table where etat = 'NRP'")
+        Dim cmd7 As New MySqlCommand("select count(Numero) from general_table where etat = 'DS'")
+        '----------------------------------Leads------------------------------------------------
+        Try
+            conn.Open()
+            cmd5.Connection = conn
+            Dim sqlresult = Convert.ToString(cmd5.ExecuteScalar)
+            leads.Text = sqlresult
+        Catch ex As MySqlException
+            MsgBox("Error!")
+        Finally
+            conn.Close()
+        End Try
+
+        ''----------------------------------NRP--------------------------------------------------
+        Try
+            conn.Open()
+            cmd6.Connection = conn
+            Dim sqlresult = Convert.ToString(cmd6.ExecuteScalar)
+            NRP.Text = sqlresult
+        Catch ex As MySqlException
+            MsgBox("Error!")
+        Finally
+            conn.Close()
+        End Try
+        ''----------------------------------DS---------------------------------------------------
+        Try
+            conn.Open()
+            cmd7.Connection = conn
+            Dim sqlresult = Convert.ToString(cmd7.ExecuteScalar)
+            DS.Text = sqlresult
+        Catch ex As MySqlException
+            MsgBox("Error!")
+        Finally
+            conn.Close()
+        End Try
+
+
+
         '----------------------------------Services---------------------------------------------
         Try
             conn.Open()
@@ -207,5 +248,38 @@ Public Class Form1
         service2.Text = ""
         service3.Text = ""
 
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles DS.Click
+
+    End Sub
+
+    Private Sub GroupBox4_Enter(sender As Object, e As EventArgs) Handles GroupBox4.Enter
+
+    End Sub
+
+    Private Sub Label12_Click(sender As Object, e As EventArgs) Handles leads.Click
+
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
+        Dim dr As MySqlDataReader
+        id = id + 1
+        Dim cmd4 As New MySqlCommand("select * from table1.numero_de_client where id ='" & id & "'")
+        Try
+            conn.Open()
+            cmd4.Connection = conn
+            dr = cmd4.ExecuteReader()
+            While dr.Read
+                Dim pname = dr.GetString("Numero")
+                phoneNb.Text = pname
+            End While
+            conn.Close()
+        Catch ex As MySqlException
+            MsgBox("Error!")
+        Finally
+            conn.Close()
+        End Try
     End Sub
 End Class

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Nouveau dossier\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {}
+    "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Application\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Nouveau dossier\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {
+    "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Application\\Application-PointS\\callCenterApp\\callCenterApp.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Nouveau dossier\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
+        "projectUniqueName": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Application\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
         "projectName": "callCenterApp",
-        "projectPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Nouveau dossier\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
+        "projectPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Application\\Application-PointS\\callCenterApp\\callCenterApp.vbproj",
         "packagesPath": "C:\\Users\\departement-techniqu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Nouveau dossier\\Application-PointS\\callCenterApp\\obj\\",
+        "outputPath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Application\\Application-PointS\\callCenterApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\departement-techniqu\\AppData\\Roaming\\NuGet\\NuGet.Config",
