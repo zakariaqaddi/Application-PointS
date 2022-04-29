@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "callCenterApp/1.0.0": {
+      "CallCenterApp/1.0.0": {
         "dependencies": {
           "MySql.Data": "8.0.28"
         },
         "runtime": {
-          "callCenterApp.dll": {}
+          "CallCenterApp.dll": {}
         }
       },
       "BouncyCastle.NetCore/1.8.5": {
@@ -141,7 +141,7 @@
     }
   },
   "libraries": {
-    "callCenterApp/1.0.0": {
+    "CallCenterApp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

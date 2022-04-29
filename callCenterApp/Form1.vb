@@ -1,25 +1,42 @@
-﻿Imports System.Data
+﻿Imports System.Net.Mail
 Imports MySql.Data.MySqlClient
-Imports System.Net.Mail
 Public Class Form1
     Dim id As Integer = 1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
+        Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;convert zero datetime=True")
         Dim dr As MySqlDataReader
         Dim cmd1 As New MySqlCommand("select * from services")
         Dim cmd2 As New MySqlCommand("select * from etats")
         Dim cmd3 As New MySqlCommand("select * from centres")
         Dim cmd4 As New MySqlCommand("select * from numero_de_client where id ='" & id & "'")
-
         Dim cmd5 As New MySqlCommand("select count(*) from numero_de_client")
         Dim cmd6 As New MySqlCommand("select count(Numero) from general_table where etat = 'NRP'")
-        Dim cmd7 As New MySqlCommand("select count(Numero) from general_table where etat = 'DS'")
+        Dim cmd7 As New MySqlCommand("select count(Numero) from general_table where DemandeS != ' '")
+        Dim cmd8 As New MySqlCommand("select count(*) from general_table")
+        '---------------------------------------------------------------------------------------
+
+        Dim table As New DataTable()
+        Dim adapter As New MySqlDataAdapter("select * from general_table", conn)
+        adapter.Fill(table)
+        DataGridView1.DataSource = table
+
+        '----------------------------------Data------------------------------------------------
+        Try
+            conn.Open()
+            cmd8.Connection = conn
+            Dim sqlresult = Convert.ToString(cmd8.ExecuteScalar)
+            Data.Text = sqlresult
+        Catch ex As MySqlException
+            MsgBox("Error!")
+        Finally
+            conn.Close()
+        End Try
         '----------------------------------Leads------------------------------------------------
         Try
             conn.Open()
             cmd5.Connection = conn
             Dim sqlresult = Convert.ToString(cmd5.ExecuteScalar)
-            leads.Text = sqlresult
+            Leads.Text = sqlresult
         Catch ex As MySqlException
             MsgBox("Error!")
         Finally
@@ -75,7 +92,7 @@ Public Class Form1
             dr = cmd2.ExecuteReader()
             While dr.Read
                 Dim ename = dr.GetString("Etat")
-                etat.Items.Add(ename)
+                Etat.Items.Add(ename)
             End While
             conn.Close()
         Catch ex As MySqlException
@@ -121,11 +138,11 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Quitter.Click
         Application.Exit()
     End Sub
 
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Envoyer.Click
 
         Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
         Dim dr As MySqlDataReader
@@ -167,7 +184,7 @@ Public Class Form1
     End Sub
 
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
         Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
         Dim dr As MySqlDataReader
         id = id + 1
@@ -196,7 +213,7 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Left.Click
         Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
         Dim dr As MySqlDataReader
         id = id - 1
@@ -217,18 +234,19 @@ Public Class Form1
         End Try
     End Sub
 
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Ajouter.Click
         Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
-        Dim sqlInsert As String = "insert into general_table(Numero, Prenom, Nom, Etat, Observation, Service1, Service2, Service3) values (@Numero, @Prenom, @Nom, @Etat, @Observation, @Service1, @Service2, @Service3)"
+        Dim sqlInsert As String = "insert into general_table(Numero, Prenom, Nom, Etat, Observation, Service1, Service2, Service3, DemandeS) values (@Numero, @Prenom, @Nom, @Etat, @Observation, @Service1, @Service2, @Service3, @DemandeS)"
         Dim cmd = New MySqlCommand(sqlInsert, conn)
         cmd.Parameters.AddWithValue("@Numero", phoneNb.Text)
-        cmd.Parameters.AddWithValue("@Prenom", TextBox2.Text)
-        cmd.Parameters.AddWithValue("@Nom", TextBox1.Text)
-        cmd.Parameters.AddWithValue("@Etat", etat.Text)
-        cmd.Parameters.AddWithValue("@Observation", RichTextBox1.Text)
+        cmd.Parameters.AddWithValue("@Prenom", Prenom.Text)
+        cmd.Parameters.AddWithValue("@Nom", Nom.Text)
+        cmd.Parameters.AddWithValue("@Etat", Etat.Text)
+        cmd.Parameters.AddWithValue("@Observation", Observation.Text)
         cmd.Parameters.AddWithValue("@Service1", service1.Text)
         cmd.Parameters.AddWithValue("@Service2", service2.Text)
         cmd.Parameters.AddWithValue("@Service3", service3.Text)
+        cmd.Parameters.AddWithValue("@DemandeS", DemandeS.Text)
 
         Try
             conn.Open()
@@ -240,13 +258,14 @@ Public Class Form1
         End Try
         'Button3_Click(sender, e)
         'phoneNb.Text = ""
-        TextBox2.Text = ""
-        TextBox1.Text = ""
-        etat.Text = ""
-        RichTextBox1.Text = ""
+        Prenom.Text = ""
+        Nom.Text = ""
+        Etat.Text = ""
+        Observation.Text = ""
         service1.Text = ""
         service2.Text = ""
         service3.Text = ""
+        DemandeS.Text = ""
 
     End Sub
 
@@ -258,11 +277,11 @@ Public Class Form1
 
     End Sub
 
-    Private Sub Label12_Click(sender As Object, e As EventArgs) Handles leads.Click
+    Private Sub Label12_Click(sender As Object, e As EventArgs) Handles Leads.Click
 
     End Sub
 
-    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Right.Click
         Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;")
         Dim dr As MySqlDataReader
         id = id + 1
@@ -281,5 +300,61 @@ Public Class Form1
         Finally
             conn.Close()
         End Try
+    End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
+
+    End Sub
+
+    Private Sub DataGridView1_CellContentClick_1(sender As Object, e As DataGridViewCellEventArgs)
+
+    End Sub
+
+    Private Sub GroupBox5_Enter(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub LinkLabel2_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
+        Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;convert zero datetime=True")
+        Dim table As New DataTable()
+        Dim adapter As New MySqlDataAdapter("select * from numero_de_client", conn)
+        adapter.Fill(table)
+        DataGridView1.DataSource = table
+    End Sub
+
+    Private Sub LinkLabel3_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel3.LinkClicked
+        Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;convert zero datetime=True")
+        Dim table As New DataTable()
+        Dim adapter As New MySqlDataAdapter("select * from general_table where DemandeS != ' '", conn)
+        adapter.Fill(table)
+        DataGridView1.DataSource = table
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;convert zero datetime=True")
+        Dim table As New DataTable()
+        Dim adapter As New MySqlDataAdapter("select * from general_table where etat = 'NRP'", conn)
+        adapter.Fill(table)
+        DataGridView1.DataSource = table
+    End Sub
+
+    Private Sub LinkLabel4_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
+        Dim conn As New MySqlConnection("server=localhost;user=root;database=table1;port=3306;convert zero datetime=True")
+        Dim table As New DataTable()
+        Dim adapter As New MySqlDataAdapter("select * from general_table", conn)
+        adapter.Fill(table)
+        DataGridView1.DataSource = table
+    End Sub
+
+    Private Sub Label2_Click_1(sender As Object, e As EventArgs) Handles Data.Click
+
+    End Sub
+
+    Private Sub Label10_Click(sender As Object, e As EventArgs) Handles Label10.Click
+
     End Sub
 End Class

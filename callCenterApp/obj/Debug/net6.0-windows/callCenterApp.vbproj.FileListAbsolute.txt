@@ -143,7 +143,6 @@ C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Applic
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\bin\Debug\net6.0-windows\ZstdNet.dll
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\callCenterApp.vbproj.AssemblyReference.cache
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\callCenterApp.Form1.resources
-C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\callCenterApp.Form2.resources
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\callCenterApp.vbproj.GenerateResource.cache
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\callCenterApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\callCenterApp.AssemblyInfoInputs.cache
@@ -155,3 +154,4 @@ C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Applic
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\callCenterApp.pdb
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\callCenterApp.genruntimeconfig.cache
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\ref\callCenterApp.dll
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\CallCenterApp.Resources.resources

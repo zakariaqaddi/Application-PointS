@@ -25,9 +25,9 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.etat = New System.Windows.Forms.ComboBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Etat = New System.Windows.Forms.ComboBox()
+        Me.Nom = New System.Windows.Forms.TextBox()
+        Me.Prenom = New System.Windows.Forms.TextBox()
         Me.phoneNb = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
@@ -36,35 +36,41 @@ Partial Class Form1
         Me.Label8 = New System.Windows.Forms.Label()
         Me.service2 = New System.Windows.Forms.ComboBox()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Quitter = New System.Windows.Forms.Button()
         Me.centre = New System.Windows.Forms.ComboBox()
         Me.Label11 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Left = New System.Windows.Forms.Button()
         Me.Label13 = New System.Windows.Forms.Label()
         Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.RichTextBox1 = New System.Windows.Forms.RichTextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.DemandeS = New System.Windows.Forms.TextBox()
+        Me.Observation = New System.Windows.Forms.RichTextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Envoyer = New System.Windows.Forms.Button()
+        Me.Ajouter = New System.Windows.Forms.Button()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Data = New System.Windows.Forms.Label()
+        Me.LinkLabel4 = New System.Windows.Forms.LinkLabel()
         Me.NRP = New System.Windows.Forms.Label()
         Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
         Me.DS = New System.Windows.Forms.Label()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
-        Me.leads = New System.Windows.Forms.Label()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
+        Me.Leads = New System.Windows.Forms.Label()
+        Me.Right = New System.Windows.Forms.Button()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox5.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -93,38 +99,38 @@ Partial Class Form1
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(120, 234)
+        Me.Label4.Location = New System.Drawing.Point(120, 224)
         Me.Label4.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(78, 45)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Etat"
         '
-        'etat
+        'Etat
         '
-        Me.etat.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.etat.FormattingEnabled = True
-        Me.etat.Location = New System.Drawing.Point(229, 234)
-        Me.etat.Margin = New System.Windows.Forms.Padding(5)
-        Me.etat.Name = "etat"
-        Me.etat.Size = New System.Drawing.Size(284, 33)
-        Me.etat.TabIndex = 4
+        Me.Etat.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Etat.FormattingEnabled = True
+        Me.Etat.Location = New System.Drawing.Point(229, 234)
+        Me.Etat.Margin = New System.Windows.Forms.Padding(5)
+        Me.Etat.Name = "Etat"
+        Me.Etat.Size = New System.Drawing.Size(284, 33)
+        Me.Etat.TabIndex = 4
         '
-        'TextBox1
+        'Nom
         '
-        Me.TextBox1.Location = New System.Drawing.Point(229, 136)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(5)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(284, 38)
-        Me.TextBox1.TabIndex = 5
+        Me.Nom.Location = New System.Drawing.Point(229, 136)
+        Me.Nom.Margin = New System.Windows.Forms.Padding(5)
+        Me.Nom.Name = "Nom"
+        Me.Nom.Size = New System.Drawing.Size(284, 38)
+        Me.Nom.TabIndex = 5
         '
-        'TextBox2
+        'Prenom
         '
-        Me.TextBox2.Location = New System.Drawing.Point(1009, 139)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(5)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(311, 38)
-        Me.TextBox2.TabIndex = 6
+        Me.Prenom.Location = New System.Drawing.Point(1009, 139)
+        Me.Prenom.Margin = New System.Windows.Forms.Padding(5)
+        Me.Prenom.Name = "Prenom"
+        Me.Prenom.Size = New System.Drawing.Size(311, 38)
+        Me.Prenom.TabIndex = 6
         '
         'phoneNb
         '
@@ -211,18 +217,18 @@ Partial Class Form1
         Me.Label9.TabIndex = 14
         Me.Label9.Text = "Service 2"
         '
-        'Button1
+        'Quitter
         '
-        Me.Button1.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button1.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button1.Location = New System.Drawing.Point(1284, 774)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(5)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(174, 58)
-        Me.Button1.TabIndex = 16
-        Me.Button1.Text = "Quitter"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.Quitter.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Quitter.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Quitter.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.Quitter.Location = New System.Drawing.Point(1284, 774)
+        Me.Quitter.Margin = New System.Windows.Forms.Padding(5)
+        Me.Quitter.Name = "Quitter"
+        Me.Quitter.Size = New System.Drawing.Size(174, 58)
+        Me.Quitter.TabIndex = 16
+        Me.Quitter.Text = "Quitter"
+        Me.Quitter.UseVisualStyleBackColor = False
         '
         'centre
         '
@@ -245,31 +251,18 @@ Partial Class Form1
         Me.Label11.TabIndex = 19
         Me.Label11.Text = "Centre"
         '
-        'Button2
+        'Left
         '
-        Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button2.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button2.Location = New System.Drawing.Point(102, 766)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(5)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(153, 58)
-        Me.Button2.TabIndex = 21
-        Me.Button2.Text = "<<"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.White
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button3.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button3.Location = New System.Drawing.Point(1564, 1056)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(5)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(153, 58)
-        Me.Button3.TabIndex = 22
-        Me.Button3.Text = ">>"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.Left.BackColor = System.Drawing.Color.White
+        Me.Left.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Left.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.Left.Location = New System.Drawing.Point(102, 766)
+        Me.Left.Margin = New System.Windows.Forms.Padding(5)
+        Me.Left.Name = "Left"
+        Me.Left.Size = New System.Drawing.Size(153, 58)
+        Me.Left.TabIndex = 21
+        Me.Left.Text = "<<"
+        Me.Left.UseVisualStyleBackColor = False
         '
         'Label13
         '
@@ -298,15 +291,17 @@ Partial Class Form1
         'GroupBox1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.White
-        Me.GroupBox1.Controls.Add(Me.RichTextBox1)
+        Me.GroupBox1.Controls.Add(Me.Label10)
+        Me.GroupBox1.Controls.Add(Me.DemandeS)
+        Me.GroupBox1.Controls.Add(Me.Observation)
         Me.GroupBox1.Controls.Add(Me.Label7)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.phoneNb)
-        Me.GroupBox1.Controls.Add(Me.etat)
+        Me.GroupBox1.Controls.Add(Me.Etat)
         Me.GroupBox1.Controls.Add(Me.Label4)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.Nom)
         Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.Prenom)
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.GroupBox1.Location = New System.Drawing.Point(102, 30)
@@ -316,20 +311,39 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Informations Client"
         '
-        'RichTextBox1
+        'Label10
         '
-        Me.RichTextBox1.Location = New System.Drawing.Point(897, 228)
-        Me.RichTextBox1.Name = "RichTextBox1"
-        Me.RichTextBox1.Size = New System.Drawing.Size(423, 98)
-        Me.RichTextBox1.TabIndex = 11
-        Me.RichTextBox1.Text = ""
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label10.Location = New System.Drawing.Point(120, 303)
+        Me.Label10.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(290, 45)
+        Me.Label10.TabIndex = 13
+        Me.Label10.Text = "Demande spéciale"
+        '
+        'DemandeS
+        '
+        Me.DemandeS.Location = New System.Drawing.Point(431, 310)
+        Me.DemandeS.Margin = New System.Windows.Forms.Padding(5)
+        Me.DemandeS.Name = "DemandeS"
+        Me.DemandeS.Size = New System.Drawing.Size(307, 38)
+        Me.DemandeS.TabIndex = 12
+        '
+        'Observation
+        '
+        Me.Observation.Location = New System.Drawing.Point(897, 228)
+        Me.Observation.Name = "Observation"
+        Me.Observation.Size = New System.Drawing.Size(423, 98)
+        Me.Observation.TabIndex = 11
+        Me.Observation.Text = ""
         '
         'Label7
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label7.ForeColor = System.Drawing.Color.OrangeRed
-        Me.Label7.Location = New System.Drawing.Point(652, 234)
+        Me.Label7.Location = New System.Drawing.Point(707, 228)
         Me.Label7.Margin = New System.Windows.Forms.Padding(5, 0, 5, 0)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(175, 37)
@@ -356,7 +370,7 @@ Partial Class Form1
         '
         'GroupBox3
         '
-        Me.GroupBox3.Controls.Add(Me.Button5)
+        Me.GroupBox3.Controls.Add(Me.Envoyer)
         Me.GroupBox3.Controls.Add(Me.Label13)
         Me.GroupBox3.Controls.Add(Me.DateTimePicker2)
         Me.GroupBox3.Controls.Add(Me.centre)
@@ -370,37 +384,36 @@ Partial Class Form1
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Prise de rendez-vous"
         '
-        'Button5
+        'Envoyer
         '
-        Me.Button5.BackColor = System.Drawing.Color.White
-        Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button5.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button5.Location = New System.Drawing.Point(426, 227)
-        Me.Button5.Margin = New System.Windows.Forms.Padding(5)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(166, 56)
-        Me.Button5.TabIndex = 30
-        Me.Button5.Text = "Envoyez"
-        Me.Button5.UseVisualStyleBackColor = False
+        Me.Envoyer.BackColor = System.Drawing.Color.White
+        Me.Envoyer.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Envoyer.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.Envoyer.Location = New System.Drawing.Point(426, 227)
+        Me.Envoyer.Margin = New System.Windows.Forms.Padding(5)
+        Me.Envoyer.Name = "Envoyer"
+        Me.Envoyer.Size = New System.Drawing.Size(166, 56)
+        Me.Envoyer.TabIndex = 30
+        Me.Envoyer.Text = "Envoyez"
+        Me.Envoyer.UseVisualStyleBackColor = False
         '
-        'Button4
+        'Ajouter
         '
-        Me.Button4.BackColor = System.Drawing.Color.White
-        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button4.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button4.Location = New System.Drawing.Point(572, 766)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(5)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(174, 58)
-        Me.Button4.TabIndex = 29
-        Me.Button4.Text = "Ajouter"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.Ajouter.BackColor = System.Drawing.Color.White
+        Me.Ajouter.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Ajouter.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.Ajouter.Location = New System.Drawing.Point(572, 766)
+        Me.Ajouter.Margin = New System.Windows.Forms.Padding(5)
+        Me.Ajouter.Name = "Ajouter"
+        Me.Ajouter.Size = New System.Drawing.Size(174, 58)
+        Me.Ajouter.TabIndex = 29
+        Me.Ajouter.Text = "Ajouter"
+        Me.Ajouter.UseVisualStyleBackColor = False
         '
         'GroupBox4
         '
         Me.GroupBox4.BackColor = System.Drawing.Color.White
         Me.GroupBox4.Controls.Add(Me.Panel1)
-        Me.GroupBox4.Controls.Add(Me.Button6)
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.GroupBox4.Location = New System.Drawing.Point(1466, 30)
         Me.GroupBox4.Name = "GroupBox4"
@@ -412,23 +425,48 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.GhostWhite
+        Me.Panel1.Controls.Add(Me.Data)
+        Me.Panel1.Controls.Add(Me.LinkLabel4)
         Me.Panel1.Controls.Add(Me.NRP)
         Me.Panel1.Controls.Add(Me.LinkLabel2)
         Me.Panel1.Controls.Add(Me.DS)
         Me.Panel1.Controls.Add(Me.LinkLabel1)
         Me.Panel1.Controls.Add(Me.LinkLabel3)
-        Me.Panel1.Controls.Add(Me.leads)
+        Me.Panel1.Controls.Add(Me.Leads)
         Me.Panel1.Location = New System.Drawing.Point(32, 71)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(265, 196)
+        Me.Panel1.Size = New System.Drawing.Size(265, 264)
         Me.Panel1.TabIndex = 10
+        '
+        'Data
+        '
+        Me.Data.AutoSize = True
+        Me.Data.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Data.ForeColor = System.Drawing.Color.Black
+        Me.Data.Location = New System.Drawing.Point(154, 81)
+        Me.Data.Name = "Data"
+        Me.Data.Size = New System.Drawing.Size(54, 29)
+        Me.Data.TabIndex = 10
+        Me.Data.Text = "- - -"
+        '
+        'LinkLabel4
+        '
+        Me.LinkLabel4.AutoSize = True
+        Me.LinkLabel4.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.LinkLabel4.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.LinkLabel4.Location = New System.Drawing.Point(7, 77)
+        Me.LinkLabel4.Name = "LinkLabel4"
+        Me.LinkLabel4.Size = New System.Drawing.Size(75, 33)
+        Me.LinkLabel4.TabIndex = 9
+        Me.LinkLabel4.TabStop = True
+        Me.LinkLabel4.Text = "Data"
         '
         'NRP
         '
         Me.NRP.AutoSize = True
         Me.NRP.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.NRP.ForeColor = System.Drawing.Color.Black
-        Me.NRP.Location = New System.Drawing.Point(154, 80)
+        Me.NRP.Location = New System.Drawing.Point(154, 139)
         Me.NRP.Name = "NRP"
         Me.NRP.Size = New System.Drawing.Size(54, 29)
         Me.NRP.TabIndex = 7
@@ -451,7 +489,7 @@ Partial Class Form1
         Me.DS.AutoSize = True
         Me.DS.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.DS.ForeColor = System.Drawing.Color.Black
-        Me.DS.Location = New System.Drawing.Point(154, 150)
+        Me.DS.Location = New System.Drawing.Point(154, 209)
         Me.DS.Name = "DS"
         Me.DS.Size = New System.Drawing.Size(54, 29)
         Me.DS.TabIndex = 8
@@ -462,7 +500,7 @@ Partial Class Form1
         Me.LinkLabel1.AutoSize = True
         Me.LinkLabel1.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.LinkLabel1.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.LinkLabel1.Location = New System.Drawing.Point(6, 82)
+        Me.LinkLabel1.Location = New System.Drawing.Point(11, 139)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(70, 33)
         Me.LinkLabel1.TabIndex = 3
@@ -474,63 +512,77 @@ Partial Class Form1
         Me.LinkLabel3.AutoSize = True
         Me.LinkLabel3.Font = New System.Drawing.Font("Montserrat", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.LinkLabel3.ForeColor = System.Drawing.SystemColors.HighlightText
-        Me.LinkLabel3.Location = New System.Drawing.Point(6, 149)
+        Me.LinkLabel3.Location = New System.Drawing.Point(11, 209)
         Me.LinkLabel3.Name = "LinkLabel3"
         Me.LinkLabel3.Size = New System.Drawing.Size(50, 33)
         Me.LinkLabel3.TabIndex = 4
         Me.LinkLabel3.TabStop = True
         Me.LinkLabel3.Text = "DS"
         '
-        'leads
+        'Leads
         '
-        Me.leads.AutoSize = True
-        Me.leads.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.leads.ForeColor = System.Drawing.Color.Black
-        Me.leads.Location = New System.Drawing.Point(154, 14)
-        Me.leads.Name = "leads"
-        Me.leads.Size = New System.Drawing.Size(54, 29)
-        Me.leads.TabIndex = 6
-        Me.leads.Text = "- - -"
+        Me.Leads.AutoSize = True
+        Me.Leads.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Leads.ForeColor = System.Drawing.Color.Black
+        Me.Leads.Location = New System.Drawing.Point(154, 14)
+        Me.Leads.Name = "Leads"
+        Me.Leads.Size = New System.Drawing.Size(54, 29)
+        Me.Leads.TabIndex = 6
+        Me.Leads.Text = "- - -"
         '
-        'Button6
+        'Right
         '
-        Me.Button6.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Button6.ForeColor = System.Drawing.SystemColors.Window
-        Me.Button6.Location = New System.Drawing.Point(32, 302)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(265, 46)
-        Me.Button6.TabIndex = 9
-        Me.Button6.Text = "Data"
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.Right.BackColor = System.Drawing.Color.White
+        Me.Right.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Right.ForeColor = System.Drawing.Color.RoyalBlue
+        Me.Right.Location = New System.Drawing.Point(342, 766)
+        Me.Right.Margin = New System.Windows.Forms.Padding(5)
+        Me.Right.Name = "Right"
+        Me.Right.Size = New System.Drawing.Size(153, 58)
+        Me.Right.TabIndex = 31
+        Me.Right.Text = ">>"
+        Me.Right.UseVisualStyleBackColor = False
         '
-        'Button7
+        'DataGridView1
         '
-        Me.Button7.BackColor = System.Drawing.Color.White
-        Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Button7.ForeColor = System.Drawing.Color.RoyalBlue
-        Me.Button7.Location = New System.Drawing.Point(342, 766)
-        Me.Button7.Margin = New System.Windows.Forms.Padding(5)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(153, 58)
-        Me.Button7.TabIndex = 31
-        Me.Button7.Text = ">>"
-        Me.Button7.UseVisualStyleBackColor = False
+        Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.Control
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.GridColor = System.Drawing.SystemColors.ButtonFace
+        Me.DataGridView1.Location = New System.Drawing.Point(28, 55)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersWidth = 82
+        Me.DataGridView1.RowTemplate.Height = 41
+        Me.DataGridView1.Size = New System.Drawing.Size(1636, 329)
+        Me.DataGridView1.TabIndex = 32
+        '
+        'GroupBox5
+        '
+        Me.GroupBox5.BackColor = System.Drawing.Color.White
+        Me.GroupBox5.Controls.Add(Me.DataGridView1)
+        Me.GroupBox5.Font = New System.Drawing.Font("Montserrat SemiBold", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.GroupBox5.ForeColor = System.Drawing.Color.Black
+        Me.GroupBox5.Location = New System.Drawing.Point(102, 840)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(1696, 409)
+        Me.GroupBox5.TabIndex = 33
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "Data"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 32.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.RoyalBlue
-        Me.ClientSize = New System.Drawing.Size(1902, 883)
-        Me.Controls.Add(Me.Button7)
+        Me.ClientSize = New System.Drawing.Size(1902, 1290)
+        Me.Controls.Add(Me.GroupBox5)
+        Me.Controls.Add(Me.Right)
         Me.Controls.Add(Me.GroupBox4)
-        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Ajouter)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.Left)
+        Me.Controls.Add(Me.Quitter)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Margin = New System.Windows.Forms.Padding(5)
         Me.MaximizeBox = False
@@ -547,6 +599,8 @@ Partial Class Form1
         Me.GroupBox4.ResumeLayout(False)
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox5.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
@@ -554,9 +608,9 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label4 As Label
-    Friend WithEvents etat As ComboBox
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Etat As ComboBox
+    Friend WithEvents Nom As TextBox
+    Friend WithEvents Prenom As TextBox
     Friend WithEvents phoneNb As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label6 As Label
@@ -565,18 +619,17 @@ Partial Class Form1
     Friend WithEvents Label8 As Label
     Friend WithEvents service2 As ComboBox
     Friend WithEvents Label9 As Label
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Quitter As Button
     Friend WithEvents centre As ComboBox
     Friend WithEvents Label11 As Label
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents Left As Button
     Friend WithEvents Label13 As Label
     Friend WithEvents DateTimePicker2 As DateTimePicker
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents Button4 As Button
-    Friend WithEvents Button5 As Button
+    Friend WithEvents Ajouter As Button
+    Friend WithEvents Envoyer As Button
     Friend WithEvents Label7 As Label
     Friend WithEvents GroupBox4 As GroupBox
     Friend WithEvents LinkLabel2 As LinkLabel
@@ -584,9 +637,14 @@ Partial Class Form1
     Friend WithEvents LinkLabel3 As LinkLabel
     Friend WithEvents DS As Label
     Friend WithEvents NRP As Label
-    Friend WithEvents leads As Label
-    Friend WithEvents Button6 As Button
-    Friend WithEvents RichTextBox1 As RichTextBox
+    Friend WithEvents Leads As Label
+    Friend WithEvents Observation As RichTextBox
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button7 As Button
+    Friend WithEvents Right As Button
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents GroupBox5 As GroupBox
+    Friend WithEvents Data As Label
+    Friend WithEvents LinkLabel4 As LinkLabel
+    Friend WithEvents Label10 As Label
+    Friend WithEvents DemandeS As TextBox
 End Class
