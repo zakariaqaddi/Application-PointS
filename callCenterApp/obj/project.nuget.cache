@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YCXpMGOQI1FtJC+nVBbGoMiM1HP9erm0CAR95Sfzh3Kim7sQWJt6IgyktlfKkAelO8Kf4CYPlWa2p4SsW8CmIw==",
+  "dgSpecHash": "6fht5/SNE14RhvDSgP3rFvnrw/i7PnP8uTehKRFlfn2aF7urS51hPNIi3Drti/I9OLSZNabkCrr2w4kBKU4X7Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\departement-techniqu\\OneDrive - Imperial pneu\\Bureau\\Application\\Application-PointS\\callCenterApp\\CallCenterApp.vbproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\k4os.compression.lz4.streams\\1.2.6\\k4os.compression.lz4.streams.1.2.6.nupkg.sha512",
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\departement-techniqu\\.nuget\\packages\\microsoft.office.interop.outlook\\15.0.4797.1003\\microsoft.office.interop.outlook.15.0.4797.1003.nupkg.sha512",
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\mysql.data\\8.0.28\\mysql.data.8.0.28.nupkg.sha512",
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
@@ -24,5 +25,16 @@
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
     "C:\\Users\\departement-techniqu\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Le package 'Microsoft.Office.Interop.Outlook 15.0.4797.1003' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' au lieu du framework cible du projet 'net6.0-windows7.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "libraryId": "Microsoft.Office.Interop.Outlook",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

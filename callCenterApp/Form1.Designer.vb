@@ -64,6 +64,7 @@ Partial Class Form1
         Me.Right = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -278,9 +279,9 @@ Partial Class Form1
         'DateTimePicker2
         '
         Me.DateTimePicker2.CalendarFont = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.DateTimePicker2.CustomFormat = ""
+        Me.DateTimePicker2.CustomFormat = "yyyy-MM-dd"
         Me.DateTimePicker2.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.DateTimePicker2.Location = New System.Drawing.Point(195, 58)
         Me.DateTimePicker2.Margin = New System.Windows.Forms.Padding(5)
         Me.DateTimePicker2.Name = "DateTimePicker2"
@@ -413,6 +414,7 @@ Partial Class Form1
         'GroupBox4
         '
         Me.GroupBox4.BackColor = System.Drawing.Color.White
+        Me.GroupBox4.Controls.Add(Me.Button1)
         Me.GroupBox4.Controls.Add(Me.Panel1)
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.GroupBox4.Location = New System.Drawing.Point(1466, 30)
@@ -568,6 +570,17 @@ Partial Class Form1
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Data"
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
+        Me.Button1.Location = New System.Drawing.Point(32, 377)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(265, 46)
+        Me.Button1.TabIndex = 11
+        Me.Button1.Text = "Effacer"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 32.0!)
@@ -647,4 +660,5 @@ Partial Class Form1
     Friend WithEvents LinkLabel4 As LinkLabel
     Friend WithEvents Label10 As Label
     Friend WithEvents DemandeS As TextBox
+    Friend WithEvents Button1 As Button
 End Class
