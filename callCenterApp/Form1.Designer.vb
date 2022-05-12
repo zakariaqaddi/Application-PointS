@@ -64,7 +64,6 @@ Partial Class Form1
         Me.Right = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -111,6 +110,7 @@ Partial Class Form1
         '
         Me.Etat.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Etat.FormattingEnabled = True
+        Me.Etat.Items.AddRange(New Object() {"NRP", "RDV", "Non intéressé", "Sans RDV"})
         Me.Etat.Location = New System.Drawing.Point(229, 234)
         Me.Etat.Margin = New System.Windows.Forms.Padding(5)
         Me.Etat.Name = "Etat"
@@ -170,6 +170,7 @@ Partial Class Form1
         '
         Me.service3.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.service3.FormattingEnabled = True
+        Me.service3.Items.AddRange(New Object() {"Equilibrage", "Parallélisme", "Amortisseurs", "Diagnostic", "Pneus", "Vidange", "Permutation", "Réparation et crevaison", "Vidange et changement de filtre à carburant", "Remplacement du liquide de frein", "Climatisation ", "Plaquettes Avant/Arrière - Freins ", "Disques de frein AV et/ou AR", "Purge circuit de frein", "Diagnostic batterie et circuit de charge", "Batterie ", "Carrouserie "})
         Me.service3.Location = New System.Drawing.Point(240, 189)
         Me.service3.Margin = New System.Windows.Forms.Padding(5)
         Me.service3.Name = "service3"
@@ -180,6 +181,7 @@ Partial Class Form1
         '
         Me.service1.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.service1.FormattingEnabled = True
+        Me.service1.Items.AddRange(New Object() {"Equilibrage", "Parallélisme", "Amortisseurs", "Diagnostic", "Pneus", "Vidange", "Permutation", "Réparation et crevaison", "Vidange et changement de filtre à carburant", "Remplacement du liquide de frein", "Climatisation ", "Plaquettes Avant/Arrière - Freins ", "Disques de frein AV et/ou AR", "Purge circuit de frein", "Diagnostic batterie et circuit de charge", "Batterie ", "Carrouserie "})
         Me.service1.Location = New System.Drawing.Point(240, 58)
         Me.service1.Margin = New System.Windows.Forms.Padding(5)
         Me.service1.Name = "service1"
@@ -201,6 +203,7 @@ Partial Class Form1
         '
         Me.service2.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.service2.FormattingEnabled = True
+        Me.service2.Items.AddRange(New Object() {"Equilibrage", "Parallélisme", "Amortisseurs", "Diagnostic", "Pneus", "Vidange", "Permutation", "Réparation et crevaison", "Vidange et changement de filtre à carburant", "Remplacement du liquide de frein", "Climatisation ", "Plaquettes Avant/Arrière - Freins ", "Disques de frein AV et/ou AR", "Purge circuit de frein", "Diagnostic batterie et circuit de charge", "Batterie ", "Carrouserie "})
         Me.service2.Location = New System.Drawing.Point(240, 125)
         Me.service2.Margin = New System.Windows.Forms.Padding(5)
         Me.service2.Name = "service2"
@@ -235,6 +238,7 @@ Partial Class Form1
         '
         Me.centre.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.875!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.centre.FormattingEnabled = True
+        Me.centre.Items.AddRange(New Object() {"Point S - Casa Chefchaouni", "Point S - Agadir", "Point S - Kenitra", "Point S - Khouribga", "Point S - Marrakech Tichka", "Point S - Meknès", "Point S - Tanger", "Point S - El Jadida", "Point S - Oujda", "Point S - Marrakech Z.I", "Point S - Mohammedia", "Point S - Salé", "Point S - Casa Nouvelle Zenata", "Point S - Dar Bouazza", "Point S - Rabat Hassan", "Point S - Temara", "Point S - Casa Zenata", "Point S - Casa Drissia", "Point S - Casa Emile Zola", "Point S - Casa Hay Mohammadi", "Point S - Fès - Centre Ville"})
         Me.centre.Location = New System.Drawing.Point(195, 142)
         Me.centre.Margin = New System.Windows.Forms.Padding(5)
         Me.centre.Name = "centre"
@@ -414,7 +418,6 @@ Partial Class Form1
         'GroupBox4
         '
         Me.GroupBox4.BackColor = System.Drawing.Color.White
-        Me.GroupBox4.Controls.Add(Me.Button1)
         Me.GroupBox4.Controls.Add(Me.Panel1)
         Me.GroupBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.125!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.GroupBox4.Location = New System.Drawing.Point(1466, 30)
@@ -570,17 +573,6 @@ Partial Class Form1
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Data"
         '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonFace
-        Me.Button1.Location = New System.Drawing.Point(32, 377)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(265, 46)
-        Me.Button1.TabIndex = 11
-        Me.Button1.Text = "Effacer"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(13.0!, 32.0!)
@@ -660,5 +652,4 @@ Partial Class Form1
     Friend WithEvents LinkLabel4 As LinkLabel
     Friend WithEvents Label10 As Label
     Friend WithEvents DemandeS As TextBox
-    Friend WithEvents Button1 As Button
 End Class

@@ -155,3 +155,4 @@ C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Applic
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\callCenterApp.genruntimeconfig.cache
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\ref\callCenterApp.dll
 C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\obj\Debug\net6.0-windows\CallCenterApp.Resources.resources
+C:\Users\departement-techniqu\OneDrive - Imperial pneu\Bureau\Application\Application-PointS\callCenterApp\bin\Debug\net6.0-windows\Microsoft.Office.Interop.Outlook.dll
